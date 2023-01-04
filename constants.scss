@@ -1,0 +1,11 @@
+// variables
+$font-family: "Lucida Sans";
+$grey: grey;
+$lightgrey: lightgrey;
+$white: #fff;
+$purple: #686de0;
+
+//mixin
+@mixin rounded-corners($radius) {
+    border-radius: $radius;
+  }
